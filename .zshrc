@@ -44,10 +44,10 @@ alias l="ls -lah"
 alias zshconfig="emacsclient ~/.zshrc"
 alias source-zshconfig="source ~/.zshrc"
 
-function find-file {
+function find-file() {
     find . -name "*$1*"
 }
 
-function lgrep {
+function lgrep() {
     l | grep $1
 }
