@@ -41,6 +41,7 @@ export PAGER=most
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
 
 alias l="ls -lah"
+alias t="tree"
 alias zshconfig="emacsclient ~/.zshrc"
 alias source-zshconfig="source ~/.zshrc"
 
