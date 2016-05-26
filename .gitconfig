@@ -50,6 +50,7 @@
 	quotepath = false
 	autocrlf = false
 	safecrlf = true
+	excludesfile = /home/anton/.my-config.d/.gitignore
   	# For windows use:
 	# autocrlf = true
 

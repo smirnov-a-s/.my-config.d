@@ -52,3 +52,7 @@ function find-file() {
 function lgrep() {
     l | grep $1
 }
+
+function load-compdb() {
+    ~/.emacs.d/vendor/rtags/build/bin/rc -J .
+}
