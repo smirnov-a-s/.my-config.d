@@ -56,3 +56,7 @@ function lgrep() {
 function load-compdb() {
     ~/.emacs.d/vendor/rtags/build/bin/rc -J .
 }
+
+function start-rdm() {
+    ~/.emacs.d/vendor/rtags/build/bin/rdm &
+}
