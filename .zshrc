@@ -53,10 +53,14 @@ function lgrep() {
     l | grep $1
 }
 
-function load-compdb() {
+function rtags-load-compdb() {
     ~/.emacs.d/vendor/rtags/build/bin/rc -J .
 }
 
-function start-rdm() {
+function rtags-project() {
+    ~/.emacs.d/vendor/rtags/build/bin/rc -w $1
+}
+
+function rtags-start-rdm() {
     ~/.emacs.d/vendor/rtags/build/bin/rdm &
 }
