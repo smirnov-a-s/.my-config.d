@@ -44,6 +44,7 @@ alias l="ls -lah"
 alias t="tree"
 alias zshconfig="emacsclient ~/.zshrc"
 alias source-zshconfig="source ~/.zshrc"
+alias rc="~/.emacs.d/vendor/rtags/build/bin/rc"
 
 function find-file() {
     find . -name "*$1*"
