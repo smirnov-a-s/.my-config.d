@@ -33,7 +33,7 @@ plugins=(git brew osx screen history-substring-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:
 
 export EDITOR=emacsclient
 export PAGER=most
