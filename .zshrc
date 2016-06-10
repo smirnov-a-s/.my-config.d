@@ -45,6 +45,12 @@ alias t="tree"
 alias zshconfig="emacsclient ~/.zshrc"
 alias source-zshconfig="source ~/.zshrc"
 alias rc="~/.emacs.d/vendor/rtags/build/bin/rc"
+alias rdm="~/.emacs.d/vendor/rtags/build/bin/rdm"
+alias rcl="~/.emacs.d/vendor/rtags/build/bin/rc -J ."
+
+function rcp() {
+    ~/.emacs.d/vendor/rtags/build/bin/rc -w $1
+}
 
 function find-file() {
     find . -name "*$1*"
@@ -52,16 +58,4 @@ function find-file() {
 
 function lgrep() {
     l | grep $1
-}
-
-function rtags-load-compdb() {
-    ~/.emacs.d/vendor/rtags/build/bin/rc -J .
-}
-
-function rtags-project() {
-    ~/.emacs.d/vendor/rtags/build/bin/rc -w $1
-}
-
-function rtags-start-rdm() {
-    ~/.emacs.d/vendor/rtags/build/bin/rdm &
 }
