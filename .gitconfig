@@ -6,7 +6,7 @@
 	br      = branch
 	pr	= pull --rebase
   	last    = log -1 HEAD
-  	olog    = log --oneline
+  	olog    = log --oneline --abbrev-commit --decorate=short
 	unstage = reset HEAD --
   	history = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   	type    = cat-file -t
@@ -43,7 +43,7 @@
 	default = tracking
 [format]
    	numbered = auto
-   	cc = a.smirnov@i-free.com
+   	cc = a.fin.smirnov@gmail.com
 [rerere]
 	enabled = 1
 [core]
