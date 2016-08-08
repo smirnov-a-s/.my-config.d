@@ -39,12 +39,11 @@ export PATH=$PATH:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bi
 export CC=/usr/bin/gcc
 export CXX=/usr/bin/g++
 
-# c++ -> /etc/alternatives/c++
-
 export EDITOR=emacsclient
 export PAGER=most
 
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 alias l="ls -lah"
 alias t="tree"
