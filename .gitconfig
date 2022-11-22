@@ -4,7 +4,7 @@
 	cl      = clean
 	st      = status
 	br      = branch
-	pr	= pull --rebase
+	pr      = pull --rebase
   	last    = log -1 HEAD
   	olog    = log --oneline --abbrev-commit --decorate=short
 	unstage = reset HEAD --
